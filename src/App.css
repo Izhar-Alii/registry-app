@@ -1,46 +1,8 @@
-.App {
-  text-align: center;
-}
-
-body{
-  background-color: #333;
-}
-
-.registeration{
-  color: #fff;
-}
-
-.registeration form{
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.registeration input[type="submit"]{
-  color: #fff;
-  background-color: #333;
-  padding: 10px;
-  border: 2px solid #000;
-}
-
-.registeration input[type="text"]{
-  padding: 10px;
-  border: 2px solid #000;
-}
-
-li{
-  max-width: 300px;
+.nav{
   display: flex;
-   justify-content: space-between;
-   padding: 10px;
-   margin: auto;
-   border-bottom: 2px solid #000;
-   color: #fff;
+  flex-direction: row;
 }
 
-span button{
-  background-color: #333;
-  color: #fff;
-  margin-left: 10px;
-  padding: 2px;
-  border: 2px solid #000;
+.brand h3{
+  color: red;
 }
